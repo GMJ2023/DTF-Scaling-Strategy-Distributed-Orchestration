@@ -11,10 +11,7 @@ This proposal describes a distributed orchestration model for the **Data Transfo
 The design leverages a shared **Dispatch Zone** to distribute incoming files evenly between DTF instances, allowing true parallel processing without introducing complexity to the core framework.  
 
 
-[DTF Scaling Strategy – Distributed Orchestration](https://github.com/GMJ2023/DTF-Scaling-Strategy-Distributed-Orchestration/blob/main/DTF%20Scaling%20Strategy%20%E2%80%93%20Distributed%20Orchestration.md)
-
-DTF Scaling Strategy – Distributed Orchestration.md
-
+![DTF Scaling Strategy – Distributed Orchestration](https://github.com/GMJ2023/DTF-Scaling-Strategy-Distributed-Orchestration/blob/main/DTF%20Scaling%20Strategy%20%E2%80%93%20Distributed%20Orchestration.md)
 ---
 
 ## 🧩 Architecture Highlights  
