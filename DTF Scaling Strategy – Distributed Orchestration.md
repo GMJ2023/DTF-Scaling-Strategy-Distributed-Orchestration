@@ -53,6 +53,7 @@ This built-in redundancy allows the system to recover gracefully without data lo
 ✅ Simple scaling via identical VM images  
 ✅ Low engineering overhead; zero disruption to proven DTF logic  
 ✅ Provides a natural bridge toward a cloud queue–driven model in Catalyst  
+✅ Individual VMs can be taken offline safely for development or testing without affecting live processing  
 
 ---
 
@@ -63,5 +64,6 @@ The Dispatch Zone feeds files to multiple DTF VMs via a central Orchestrator, en
 ![distribution_Illustration](https://github.com/GMJ2023/assets/blob/main/distribution_Illustration.png)
 
 This diagram illustrates how the **Dispatch Zone** distributes incoming files evenly to multiple **DTF virtual machines** through a central **Orchestrator**. Each VM runs an identical instance of the DTF environment, processing files independently while maintaining synchronised configuration and logging. This layout enables near-linear scalability — simply add more VMs to increase throughput without altering the core workflow.
+
 
 
