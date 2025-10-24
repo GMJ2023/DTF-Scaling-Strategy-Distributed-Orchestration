@@ -10,34 +10,6 @@ This proposal describes a distributed orchestration model for the **Data Transfo
 
 The design leverages a shared **Dispatch Zone** to distribute incoming files evenly between DTF instances, allowing true parallel processing without introducing complexity to the core framework.  
 
-
-![DTF Scaling Strategy – Distributed Orchestration](https://github.com/GMJ2023/DTF-Scaling-Strategy-Distributed-Orchestration/blob/main/DTF%20Scaling%20Strategy%20%E2%80%93%20Distributed%20Orchestration.md)
----
-
-## 🧩 Architecture Highlights  
-
-- **Distributed Load Balancing** – Files dynamically dispatched to idle VMs  
-- **Parallel Execution** – Each VM operates an independent DTF stack and browser session  
-- **Unified Dispatch Zone** – Shared handoff point for incoming work  
-- **Scalable Orchestration** – Easily add or remove VMs as demand changes  
-- **Consistent Codebase** – All nodes run identical DTF deployments for simplified maintenance  
-
----
-
-## 📈 Benefits  
-
-✅ Increases throughput proportionally with added VMs  
-✅ Maintains isolation and fault tolerance per instance  
-✅ Supports future cloud or container deployment  
-✅ Requires minimal reconfiguration of existing workflows  
-
----
-
-## 🖼️ System Flow Diagram  
-![distribution_Illustration](https://github.com/GMJ2023/assets/blob/main/distribution_Illustration.png)
-> *This architecture maintains DTF’s reliability while opening the door to effortless horizontal scaling.*
----
-
 ## 🧠 Repository Info  
 
 | Field | Detail |
