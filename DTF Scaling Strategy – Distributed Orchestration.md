@@ -46,6 +46,6 @@ Scale the Data Transformation Framework (DTF) from a single-VM setup to a distri
 
 The Dispatch Zone feeds files to multiple DTF VMs via a central Orchestrator, enabling balanced, scalable processing across identical environments.
 
-![Distribution Illustration](G:\My Drive\.Zoho\Typora Markup\Distribution Illustration.jpg)
+![distribution_Illustration](https://github.com/GMJ2023/assets/blob/main/distribution_Illustration.png)
 
 This diagram illustrates how the **Dispatch Zone** distributes incoming files evenly to multiple **DTF virtual machines** through a central **Orchestrator**. Each VM runs an identical instance of the DTF environment, processing files independently while maintaining synchronised configuration and logging. This layout enables near-linear scalability — simply add more VMs to increase throughput without altering the core workflow.
