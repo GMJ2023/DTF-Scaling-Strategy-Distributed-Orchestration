@@ -33,6 +33,14 @@ Scale the Data Transformation Framework (DTF) from a single-VM setup to a distri
 
 ---
 
+### ⚖️ Redundancy and Fault Tolerance  
+
+In the event of a VM failure, the remaining DTF instances automatically absorb the workload, ensuring uninterrupted processing. The Orchestrator continues to monitor the Dispatch Zone, redirecting incoming files to available VMs until the offline node is restored.  
+
+This built-in redundancy allows the system to recover gracefully without data loss or manual intervention — maintaining throughput and reliability even under partial failure.  
+
+---
+
 ### **Benefits**
 ✅ True parallel transformation and upload throughput  
 ✅ Complete visibility — all alerts traceable to specific VMs  
@@ -49,3 +57,4 @@ The Dispatch Zone feeds files to multiple DTF VMs via a central Orchestrator, en
 ![distribution_Illustration](https://github.com/GMJ2023/assets/blob/main/distribution_Illustration.png)
 
 This diagram illustrates how the **Dispatch Zone** distributes incoming files evenly to multiple **DTF virtual machines** through a central **Orchestrator**. Each VM runs an identical instance of the DTF environment, processing files independently while maintaining synchronised configuration and logging. This layout enables near-linear scalability — simply add more VMs to increase throughput without altering the core workflow.
+
