@@ -33,7 +33,7 @@ The design leverages a shared **Dispatch Zone** to distribute incoming files eve
 
 ## 🖼️ System Flow Diagram  
 
-![Distribution Illustration](distribution Illustration.png) 
+![Distribution Illustration]([distribution Illustration.png](https://github.com/GMJ2023/assets/blob/7ebe890b7fa398bbea4dc8595e21c2c06255bac6/distribution%20Illustration.png)) 
 
 > *This architecture maintains DTF’s reliability while opening the door to effortless horizontal scaling.*
 
