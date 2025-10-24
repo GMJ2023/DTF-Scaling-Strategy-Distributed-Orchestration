@@ -33,7 +33,7 @@ The design leverages a shared **Dispatch Zone** to distribute incoming files eve
 
 ## 🖼️ System Flow Diagram  
 
-![Distribution Illustration](https://github.com/GMJ2023/DTF-Monster-Manual/assets/your-image-id/Distribution_Illustration.jpg)  
+![Distribution Illustration](https://github.com/GMJ2023/DTF-Monster-Manual/assets/your-image-id/Distribution_Illustration.jpg) 
 
 > *This architecture maintains DTF’s reliability while opening the door to effortless horizontal scaling.*
 
