@@ -134,6 +134,8 @@ graph TD
 └───────────┘ └─────────┘ └──────────────┘
 ```
 
+https://github.com/GMJ2023/assets/blob/main/distribution_Illustration.png
+
 Each VM runs one persistent, monitored browser → true parallel MDA uploads.
 
 ---
