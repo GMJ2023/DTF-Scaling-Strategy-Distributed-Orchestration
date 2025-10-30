@@ -109,32 +109,7 @@ graph TD
 ---
 
 ## Diagram: Distributed Transformation Architecture
-
-```text
-┌────────────────────────┐
-│  \\dtf-files\dispatch  │
-│  Shared Storage (SMB)  │
-└────────────┬───────────┘
-             │
-   ┌─────────▼──────────────────────────────┐
-   │          DTF-Orchestrator              │
-   │          (Control Plane VM)            │
-   └───────┬─────┬───────────────┬──────────┘
-           │     │               │
-┌──────────┴┐ ┌──┴──────────┐ ┌──┴──────────┐
-│ DTF-01    │ │ DTF-02      │ │ DTF-03      │
-│ Worker +  │ │ Worker +    │ │ Worker +    │
-│ Browser   │ │ Browser     │ │ Browser     │
-│ @9222     │ │ @9223       │ │ @9224       │
-└──────┬────┘ └────┬────────┘ └────┬────────┘
-       │           │               │
-┌──────▼────┐ ┌────▼────┐ ┌────────▼─────┐
-│ Logs &    │ │ Logs &  │ │ Logs &       │
-│ Results   │ │ Results │ │ Results      │
-└───────────┘ └─────────┘ └──────────────┘
-```
-
-https://github.com/GMJ2023/assets/blob/main/distribution_Illustration.png
+![DistIllust](https://github.com/GMJ2023/assets/blob/main/distribution_Illustration.png) 
 
 Each VM runs one persistent, monitored browser → true parallel MDA uploads.
 
