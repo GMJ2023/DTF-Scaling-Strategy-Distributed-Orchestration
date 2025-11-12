@@ -184,4 +184,12 @@ Date: _____________________
 **This proposal delivers:**  
 ✅ Parallel Browser Uploads · ✅ Self-Healing Sessions · ✅ Linear Scaling · ✅ Future-Proof Design
 
-> Let’s build the next-generation DTF platform — with true parallel power.
+---
+
+Copyright © 2025 Geoffrey Jones
+All rights reserved.
+
+This repository and its contents are proprietary and confidential.
+No part may be copied, modified, or distributed without prior written consent.
+
+
