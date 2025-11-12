@@ -22,3 +22,9 @@ The design leverages a shared **Dispatch Zone** to distribute incoming files eve
 | **Document Format** | Markdown (.md) |
 
 ---
+
+Copyright © 2025 Geoffrey Jones
+All rights reserved.
+
+This repository and its contents are proprietary and confidential.
+No part may be copied, modified, or distributed without prior written consent.
