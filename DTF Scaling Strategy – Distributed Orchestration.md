@@ -65,5 +65,10 @@ The Dispatch Zone feeds files to multiple DTF VMs via a central Orchestrator, en
 
 This diagram illustrates how the **Dispatch Zone** distributes incoming files evenly to multiple **DTF virtual machines** through a central **Orchestrator**. Each VM runs an identical instance of the DTF environment, processing files independently while maintaining synchronised configuration and logging. This layout enables near-linear scalability — simply add more VMs to increase throughput without altering the core workflow.
 
+---
 
+Copyright © 2025 Geoffrey Jones
+All rights reserved.
 
+This repository and its contents are proprietary and confidential.
+No part may be copied, modified, or distributed without prior written consent.
