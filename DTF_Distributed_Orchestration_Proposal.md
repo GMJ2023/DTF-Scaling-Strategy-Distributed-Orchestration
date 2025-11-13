@@ -1,7 +1,7 @@
 # DTF Distributed Orchestration – Technical Proposal
 **Scaling the Data Transformation Framework to Parallel, Fault-Tolerant Operation**  
 **Prepared for:** IT Infrastructure & Operations Team  
-**Prepared by:** [Your Name]  
+**Prepared by:** Geoffrey Jones  
 **Date:** October 29, 2025
 
 ---
