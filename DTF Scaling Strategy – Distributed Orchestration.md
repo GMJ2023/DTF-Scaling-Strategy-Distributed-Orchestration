@@ -67,8 +67,10 @@ This diagram illustrates how the **Dispatch Zone** distributes incoming files ev
 
 ---
 
-Copyright © 2025 Geoffrey Jones
-All rights reserved.
+**Copyright © 2025 Geoffrey Jones
+ All rights reserved.**
 
-This repository and its contents are proprietary and confidential.
-No part may be copied, modified, or distributed without prior written consent.
+This codebase and all associated materials are proprietary to Geoffrey Jones.
+No part of this work may be copied reproduced modified distributed or used for any purpose other than the specific engagement for which access was granted.
+Any other use requires prior written consent from the copyright holder.
+
